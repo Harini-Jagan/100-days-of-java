@@ -15,7 +15,11 @@ class spy implements father{      //class spy implements father,mother{   //mult
 
 //override  add
       public void add(){
-          System.out.println("Hello is hari");
+
+          
+
+          System.out.println("Hello this is gowri");
+
      }
 
 }
