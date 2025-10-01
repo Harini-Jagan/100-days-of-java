@@ -2,20 +2,20 @@
 public class inter {
      public static void main(String[]args){
 
-      gowri h=new gowri();
-      h.jagan();  
+      spy h=new spy();
+      h.add();  
      }
 }
 interface father{
-     abstract void jagan();}
+     abstract void add();}
 interface mother{
-     abstract void jagan();
+     abstract void add();
 }
-class gowri implements father{      //class gowri implements father,mother{   //multiple inheritance
+class spy implements father{      //class gowri implements father,mother{   //multiple inheritance
 
 //override  jagan
-      public void jagan(){
-          System.out.println("hii");
+      public void add(){
+          System.out.println("Hello this is harini");
      }
 
 }
