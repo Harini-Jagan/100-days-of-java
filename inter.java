@@ -11,7 +11,7 @@ interface father{
 interface mother{
      abstract void add();
 }
-class spy implements father{      //class gowri implements father,mother{   //multiple inheritance
+class spy implements father{      //class spy implements father,mother{   //multiple inheritance
 
 //override  jagan
       public void add(){
