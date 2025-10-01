@@ -13,7 +13,7 @@ interface mother{
 }
 class spy implements father{      //class spy implements father,mother{   //multiple inheritance
 
-//override  jagan
+//override  add
       public void add(){
           System.out.println("Hello this is harini");
      }
